@@ -24,7 +24,7 @@ body {
 
 p, a {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px; 
   text-decoration: none;
 }
@@ -57,19 +57,22 @@ li {
 /* Mobile Navbar */
 .mobile-navbar {
   background: white;
-  height: 50px;
+  height: 65px;
   width: 100%;
   box-shadow: 0 -1px 12px lightgrey;
 }
 
 .ion-more {
   font-size: 35px;
+  position: absolute;
+  left: 25px;
+  top: 5px;
   color: #282828;
 }
 
 .mobile-navbar-btn-call {
   float: right;
-  margin-top: 8px;
+  margin-top: 18px;
   background:white;
   box-shadow: 1px -1px 10px lightgrey;
   border-radius: 100px;
@@ -105,11 +108,11 @@ li {
 }
 
 .mobile-nav-menu {
-  margin: 75px 25px;
+  margin: 45px 25px;
 }
 
 .mobile-nav-menu li {
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 .mobile-nav-menu li {
   color: white;
@@ -147,7 +150,7 @@ li {
 }
 
 .angled-section .mobile-layout-btn-group {
-  margin-top: 75px;
+  margin-top: 50px;
   padding: 0 50px;
 }
 .angled-section .mobile-layout-btn-group .btn-white {
