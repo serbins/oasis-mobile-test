@@ -73,14 +73,13 @@ li {
   background:white;
   box-shadow: 1px -1px 10px lightgrey;
   border-radius: 100px;
-  padding: 0px 18px;
-  font-size: 12px;
+  padding: 6px 18px;
+  font-size: 13px;
   color: #6D9EE1;
   letter-spacing: 1px;
 }
 
-.ion-ios-telephone {
-  font-size: 22px;
+.ion-chatbubbles {
   padding-right: 5px;
   color: #6D9EE1;
 }
@@ -130,13 +129,13 @@ li {
 
 .mobile-hero img{
   margin: auto;
-  width: 175px;
+  width: 200px;
   margin: 50px auto;
 }
 
 .angled-section {
  
-  background: #0371B3;
+  background: #6D9EE1;
   height: 300px;
   position: absolute;
   width:100%;
@@ -159,6 +158,13 @@ li {
 }
 
 .angled-section .mobile-copy-r {
-  font-size: 12px;
+  font-size: 10px;
   color: white;
+}
+
+/* temp
+@media (min-width: 550px) {
+  body {
+    display: none;
+  }
 }
