@@ -20,6 +20,7 @@
 
 body {
   position: relative;
+  background: #4586DF;
 }
 
 p, a {
@@ -91,12 +92,13 @@ li {
 .mobile-nav {
   background: #4586DF;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   position: absolute;
   top:0;
   left: 0;
   z-index: 500;
   display:none;
+  overflow: hidden;
 }
 
 .mobile-nav-close-btn {
@@ -127,6 +129,9 @@ li {
   height: 400px;
   width: 100%;
   text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+  z-index: -1;
 
 }
 
@@ -137,16 +142,10 @@ li {
 }
 
 .angled-section {
- 
-  background: #4586DF;
-  height: 300px;
   position: absolute;
   width:100%;
   top:350px;
   text-align: center;
-  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0% 100%);
-
 }
 
 .angled-section .mobile-layout-btn-group {
@@ -165,7 +164,7 @@ li {
   color: white;
 }
 
-/* temp
+
 @media (min-width: 550px) {
   body {
     display: none;
