@@ -19,7 +19,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
 
 body {
-  position: relative;
+  overflow: hidden;
 }
 
 p, a {
@@ -142,24 +142,36 @@ background: rgba(255, 255, 255, 0.356);
 .mobile-hero  {
   background: url('../img/mobile-hero-bg-2x.png');
   background-size: cover;
-  height: 250px;
+  height: 100vh;
   width: 100%;
   text-align: center;
+  overflow: hidden;
 
 
 }
 
 .mobile-hero img{
   margin: auto;
-  width: 150px;
-  margin: 50px auto;
+  width: 200px;
+  margin: 170px auto;
 }
 
+.btn-res {
+  width: 100%;
+  position: fixed;
+  bottom:0;
+  background: #4586DF;
+  color: white;
+  padding: 24px 5px;
+  text-align: center;
+  font-size: 12px;
+}
 
 
 
 @media (min-width: 550px) {
   body {
     display: none;
+
   }
 }
