@@ -20,7 +20,6 @@
 
 body {
   position: relative;
-  background: #4586DF;
 }
 
 p, a {
@@ -69,6 +68,11 @@ li {
   left: 25px;
   top: 5px;
   color: #282828;
+  transition: all .3s;
+}
+
+.ion-more:hover {
+  transform: rotate(360deg);
 }
 
 .mobile-navbar-btn-call {
@@ -114,55 +118,44 @@ li {
 }
 
 .mobile-nav-menu li {
-  padding-bottom: 25px;
+  padding:3%;
+  transition: all .3s;
 }
+
+.mobile-nav-menu li:hover, .mobile-nav-menu li:active, .active {
+background: rgba(255, 255, 255, 0.356);
+}
+
 .mobile-nav-menu li {
   color: white;
 }
+.sub-nav {
+  display: none;
+}
 
+.ion-arrow-down-b {
+  margin-left: 8px;
+}
 
 /* Mobile Page Layout */
 
 .mobile-hero  {
   background: url('../img/mobile-hero-bg-2x.png');
   background-size: cover;
-  height: 400px;
+  height: 250px;
   width: 100%;
   text-align: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
-  z-index: -1;
+
 
 }
 
 .mobile-hero img{
   margin: auto;
-  width: 200px;
+  width: 150px;
   margin: 50px auto;
 }
 
-.angled-section {
-  position: absolute;
-  width:100%;
-  top:350px;
-  text-align: center;
-}
 
-.angled-section .mobile-layout-btn-group {
-  margin-top: 50px;
-  padding: 0 50px;
-}
-.angled-section .mobile-layout-btn-group .btn-white {
-  display: block;
-  margin-bottom: 25px;
-  font-weight: 400;
-  
-}
-
-.angled-section .mobile-copy-r {
-  font-size: 10px;
-  color: white;
-}
 
 
 @media (min-width: 550px) {
